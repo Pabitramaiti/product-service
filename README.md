@@ -116,3 +116,18 @@ Fork and open a pull request. Keep changes small and focused.
 ## License
 
 This project does not include a license file. Add an appropriate license if you plan to publish.
+
+## To create a new repository on the command line
+- echo "# product-service" >> README.md
+- git init
+- git add -A
+- git commit -m "first commit"
+- git branch -M main
+- git remote add origin https://github.com/Pabitramaiti/product-service.git
+- git push -u origin main
+
+
+## To push an existing repository from the command line
+- git remote add origin https://github.com/Pabitramaiti/product-service.git
+- git branch -M main
+- git push -u origin main
