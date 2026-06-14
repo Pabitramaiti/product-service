@@ -1,0 +1,138 @@
+{
+  "info": {
+    "_postman_id": "dc455e28-28d0-4021-934d-aeed2aef9770",
+    "name": "Product_Service",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "468713"
+  },
+  "item": [
+    {
+      "name": "getAllProducts",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8088/product/products",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8088",
+          "path": [
+            "product",
+            "products"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "getProductById",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8088/product/products/252",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8088",
+          "path": [
+            "product",
+            "products",
+            "252"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "addProduct",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"name\": \"Wireless Mouse\",\r\n    \"description\": \"Ergonomic wireless mouse with adjustable DPI.\",\r\n    \"price\": 19.99,\r\n    \"imageUrl\": \"https://example.com/images/mouse.jpg\"\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8088/product/addproduct",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8088",
+          "path": [
+            "product",
+            "addproduct"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "updateProduct",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\r\n    \"id\": 252,\r\n    \"name\": \"Wireless Mouse\",\r\n    \"description\": \"Ergonomic wireless mouse with adjustable DPI.\",\r\n    \"price\": 19.99,\r\n    \"imageUrl\": \"https://example.com/images/mouse.jpeg\",\r\n    \"version\": 0\r\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8088/product/252",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8088",
+          "path": [
+            "product",
+            "252"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "addMultipleProducts",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "[\r\n    {\r\n        \"name\": \"Wireless Mouse\",\r\n        \"description\": \"Ergonomic wireless mouse with adjustable DPI.\",\r\n        \"price\": 19.99,\r\n        \"imageUrl\": \"https://example.com/images/mouse.jpg\"\r\n    },\r\n    {\r\n        \"name\": \"Mechanical Keyboard\",\r\n        \"description\": \"RGB backlit mechanical keyboard with blue switches.\",\r\n        \"price\": 79.99,\r\n        \"imageUrl\": \"https://example.com/images/keyboard.jpg\"\r\n    },\r\n    {\r\n        \"name\": \"Gaming Headset\",\r\n        \"description\": \"Surround sound headset with noise-cancelling mic.\",\r\n        \"price\": 59.99,\r\n        \"imageUrl\": \"https://example.com/images/headset.jpg\"\r\n    },\r\n    {\r\n        \"name\": \"Smartphone Stand\",\r\n        \"description\": \"Adjustable aluminum stand for smartphones and tablets.\",\r\n        \"price\": 14.99,\r\n        \"imageUrl\": \"https://example.com/images/stand.jpg\"\r\n    },\r\n    {\r\n        \"name\": \"Portable Charger\",\r\n        \"description\": \"10000mAh power bank with fast charging support.\",\r\n        \"price\": 29.99,\r\n        \"imageUrl\": \"https://example.com/images/charger.jpg\"\r\n    },\r\n    {\r\n        \"name\": \"Bluetooth Speaker\",\r\n        \"description\": \"Compact speaker with deep bass and waterproof design.\",\r\n        \"price\": 39.99,\r\n        \"imageUrl\": \"https://example.com/images/speaker.jpg\"\r\n    },\r\n    {\r\n        \"name\": \"External Hard Drive\",\r\n        \"description\": \"1TB USB 3.0 external hard drive for backups.\",\r\n        \"price\": 54.99,\r\n        \"imageUrl\": \"https://example.com/images/harddrive.jpg\"\r\n    },\r\n    {\r\n        \"name\": \"Webcam\",\r\n        \"description\": \"HD webcam with built-in microphone for video calls.\",\r\n        \"price\": 34.99,\r\n        \"imageUrl\": \"https://example.com/images/webcam.jpg\"\r\n    },\r\n    {\r\n        \"name\": \"Fitness Tracker\",\r\n        \"description\": \"Smart fitness band with heart rate monitor.\",\r\n        \"price\": 49.99,\r\n        \"imageUrl\": \"https://example.com/images/tracker.jpg\"\r\n    },\r\n    {\r\n        \"name\": \"LED Desk Lamp\",\r\n        \"description\": \"Dimmable LED lamp with touch controls.\",\r\n        \"price\": 24.99,\r\n        \"imageUrl\": \"https://example.com/images/desk-lamp.jpg\"\r\n    }\r\n]",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://localhost:8088/product/addproducts",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8088",
+          "path": [
+            "product",
+            "addproducts"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
