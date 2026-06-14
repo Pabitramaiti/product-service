@@ -49,7 +49,7 @@ public class ProductController {
 		return productService.updateProduct(id, productUpdate);
 	}
 
-	@DeleteMapping("/name/{name}")
+	@DeleteMapping("/{name}")
 	public String deleteProductByName(@PathVariable String name) {
 		productService.deleteProduct(name);
 		return "Product data for " + name + " has been deleted and cache evicted.";
