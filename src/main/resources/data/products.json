@@ -1,0 +1,72 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Mouse",
+    "description": "Ergonomic wireless mouse with adjustable DPI.",
+    "price": 19.99,
+    "imageUrl": "https://example.com/images/mouse.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Mechanical Keyboard",
+    "description": "RGB backlit mechanical keyboard with blue switches.",
+    "price": 79.99,
+    "imageUrl": "https://example.com/images/keyboard.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Gaming Headset",
+    "description": "Surround sound headset with noise-cancelling mic.",
+    "price": 59.99,
+    "imageUrl": "https://example.com/images/headset.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Smartphone Stand",
+    "description": "Adjustable aluminum stand for smartphones and tablets.",
+    "price": 14.99,
+    "imageUrl": "https://example.com/images/stand.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Portable Charger",
+    "description": "10000mAh power bank with fast charging support.",
+    "price": 29.99,
+    "imageUrl": "https://example.com/images/charger.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Bluetooth Speaker",
+    "description": "Compact speaker with deep bass and waterproof design.",
+    "price": 39.99,
+    "imageUrl": "https://example.com/images/speaker.jpg"
+  },
+  {
+    "id": 7,
+    "name": "External Hard Drive",
+    "description": "1TB USB 3.0 external hard drive for backups.",
+    "price": 54.99,
+    "imageUrl": "https://example.com/images/harddrive.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Webcam",
+    "description": "HD webcam with built-in microphone for video calls.",
+    "price": 34.99,
+    "imageUrl": "https://example.com/images/webcam.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Fitness Tracker",
+    "description": "Smart fitness band with heart rate monitor.",
+    "price": 49.99,
+    "imageUrl": "https://example.com/images/tracker.jpg"
+  },
+  {
+    "id": 10,
+    "name": "LED Desk Lamp",
+    "description": "Dimmable LED lamp with touch controls.",
+    "price": 24.99,
+    "imageUrl": "https://example.com/images/desk-lamp.jpg"
+  }
+]
