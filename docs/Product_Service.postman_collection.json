@@ -7,6 +7,26 @@
   },
   "item": [
     {
+      "name": "health",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "http://localhost:8088/products/health",
+          "protocol": "http",
+          "host": [
+            "localhost"
+          ],
+          "port": "8088",
+          "path": [
+            "products",
+            "health"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
       "name": "getAllProducts",
       "request": {
         "method": "GET",
